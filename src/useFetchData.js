@@ -40,7 +40,8 @@ const dataFetchReducer = (state, action) => {
 };
 
 export default function useFetchData() {
-  const URL = 'https://jobs.github.com/positions.json?';
+  // const URL = 'https://jobs.github.com/positions.json?';
+  const URL = '/positions.json';
   const [params, setParams] = useState({page: 1});
   const [state, dispatch] = useReducer(dataFetchReducer, {
     isLoading: false,
