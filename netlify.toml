@@ -2,6 +2,6 @@
 
 [[redirects]]
 from = "/positions.json"
-to = "https://jobs.github.com"
+to = "https://jobs.github.com/positions.json"
 status = 200
 force = true
