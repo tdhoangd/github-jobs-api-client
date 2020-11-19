@@ -1,7 +1,7 @@
 
 
 [[redirects]]
-from = "/api"
+from = "/positions.json"
 to = "https://jobs.github.com"
 status = 200
 force = true
